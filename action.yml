@@ -1,0 +1,11 @@
+name: "Push notification on Whatsapp"
+description: "Will send a Whatsapp message should a push event occur"
+author: "TSC"
+branding:
+  icon: message-square
+  color: blue
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
