@@ -1,21 +1,21 @@
-# Twiliotest 
+# Whatsapp_Push
 
-My DevOps project journey!!<br>
-With the initial ideas of Github pages to creating CVs to lifestyle blogs to Docker Containers to so on and so forth..<br>
-I have finally landed myself on Twilio cos it's so fun to explore!<br>I would have hope to stumble upon this way earlier so I can have more time to experiment it!<br> 
-And here we go to some contributing guides to Twilio!!<br>
+<br>
+This is the only simplest action that I can find in market place which I understand and replicate using the Github<br>
 
-<h1 align="center">Setting Up Whatsapp Push Notification🚀</h1>
-A github action which sends a Whatsapp notification when a change is pushed to a repository.
+<h1 align="Left">Whatsapp Push Notification�</h1>
 
-### Getting Started!
-1. Create an account in twilio [here](https://www.twilio.com/).  
-2. From your twilio dashboard fetch Account Sid and Auth Token.  
-3. To encrypt them, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give it's value.  
+This github action which sends a Whatsapp notification when a change is pushed to a repository.
+
+### How does it work?
+1. Sign up for an account in twilio [here](https://www.twilio.com/).  
+2. Obtain Account Sid and Auth Token from the dashboard.
+3. For encryption, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give their values from the dashboard.  
 4. Create a ```.github/workflows/Whatsapps.yml```.  
 5. Add the following properties to ```Whatsapps.yml``` file   
 
-```name: When one of the following events occur in the master branch, a message is sent to the Whatsapp.
+```name: When any change is made in the master branch, a message is sent to the Whatsapp. (see image on whatsapp below)
+
 on: [push]
 jobs:
   build:
@@ -33,16 +33,8 @@ jobs:
         run: echo 'Start!'
 ```
 
-# Whatsapp Push Notification Output :house_with_garden:
-### All Ready To Receive A Whatsapp Notification!
-1. Make changes in your Github repository and commit the changes.  
-2. From your "Actions" you can see the workflow running and Twilio will send notfication to your Whatsapp when a change is made. 
+## This is the image of a successful action in Github
 
 <img src="Apps Photo.png" width="200">
 
-## 📝 Reference
 
-https://github.com/kaviadigdarshan/whatsapp-actions
-***
-
-( TEST TEST )
