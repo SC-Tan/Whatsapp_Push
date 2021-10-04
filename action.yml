@@ -3,7 +3,7 @@ description: "Will send a Whatsapp message should a push event occur"
 author: "TSC"
 branding:
   icon: message-square
-  color: blue
+  color: green
 
 runs:
   using: "docker"
