@@ -28,7 +28,7 @@ jobs:
           account_sid: ${{ secrets.ACCOUNT_SID }}
           auth_token: ${{ secrets.AUTH_TOKEN }}
           to_whatsapp_no: ${{ secrets.TO_WHATSAPP_NO }}
-        uses: Cindywoo11/Twiliotest@main
+        uses: SC-Tan/Whatsapp_Push@main
       - name : Run
         run: echo 'Start!'
 ```
