@@ -12,8 +12,8 @@ This github action sends a Whatsapp notification when a change is pushed to a re
 2. Obtain Account Sid and Auth Token from the dashboard.
 3. For encryption, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` 
 and assign their values from the dashboard respectively 
-4. Create a ```.github/workflows/Whatsapps.yml```.  
-5. Add the following properties to ```Whatsapps.yml``` file   
+4. Create a ```.github/workflows/main.yml```.  
+5. Add the following properties to ```main.yml``` file   
 
 ```name: When any change is made in the master branch, a message is sent to the Whatsapp. (see image on whatsapp below)
 
