@@ -1,5 +1,5 @@
-name: "Push notification on Whatsapp"
-description: "Will send a Whatsapp message should a push event occur"
+name: "Push notification from Github on Whatsapp"
+description: "Sends a Whatsapp message when a push event occurs"
 author: "TSC"
 branding:
   icon: message-square
