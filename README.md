@@ -5,14 +5,15 @@ This is the only simplest action that I can find in market place which I underst
 
 <h1 align="Left">Whatsapp Push Notification�</h1>
 
-This github action which sends a Whatsapp notification when a change is pushed to a repository.
+This github action sends a Whatsapp notification when a change is pushed to a repository.
 
 ### How does it work?
 1. Sign up for an account in twilio [here](https://www.twilio.com/).  
 2. Obtain Account Sid and Auth Token from the dashboard.
-3. For encryption, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give their values from the dashboard.  
-4. Create a ```.github/workflows/Whatsapps.yml```.  
-5. Add the following properties to ```Whatsapps.yml``` file   
+3. For encryption, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` 
+4. and assign their values from the dashboard respectively [.  
+5. Create a ```.github/workflows/Whatsapps.yml```.  
+6. Add the following properties to ```Whatsapps.yml``` file   
 
 ```name: When any change is made in the master branch, a message is sent to the Whatsapp. (see image on whatsapp below)
 
